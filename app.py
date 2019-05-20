@@ -1,9 +1,9 @@
 from flask import Flask, render_template 
-app = Flask(___name__)
+app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Débora Veloso"
+    return 'Débora Veloso'
    
 
 if __name__=='__main__':
