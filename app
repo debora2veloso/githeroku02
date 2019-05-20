@@ -5,3 +5,6 @@ app = Flask(___name__)
 def index():
     return "Débora Veloso"
    
+
+if __name__=='__main__':
+  app.run()
