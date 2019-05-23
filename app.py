@@ -8,3 +8,6 @@ def index():
 
 if __name__=='__main__':
   app.run()
+
+#TENHO DE FAZER O TRABALHO PRA APRESENTAR TERÇA MAS AINDA NAO SEI O TEMA , MAS TEM DE SER TEXTO / IMAGENS PROBABELMENTE
+#instagram twitwr youtube facebook nome da empreza contactos horarios ....
