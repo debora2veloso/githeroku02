@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'layout.html' %}
+{% block titulo %}
+<title>Index</title>
+{% endblock %}
 
-</body>
-</html>
+{% block conteudo %}
+<h1>Obrigado por comprar na nossa loja!</h1>
+<h3>A sua encomenda foi registada com sucesso.</h3>
+<img src="/static/images/encomenda.png"><br>
+<input type="button" value="Obter Comprovativo" onclick="window.open('/static/faturas/{{ fatura }}')">
+{% endblock %}

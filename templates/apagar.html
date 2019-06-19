@@ -1,7 +1,7 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-<h2>Iniciar Sessão</h2>
+<h2>Eliminar Conta</h2>
 <fieldset>
     <legend>Introduza os seus dados</legend>
     <form method="post">
@@ -10,7 +10,7 @@
         <h4>Palavra-Passe</h4>
         <input type='password' name='passe' required>
         <p><br></p>
-        <input type='submit' value="Entrar">
+        <input type='submit' value="Eliminar">
     </form>
 </fieldset>
 {% if erro %}<h1>{{ erro }}</h1>{% endif %}
